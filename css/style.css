@@ -1,0 +1,11 @@
+html {
+	overflow-x: hidden;
+}
+
+div .card-deck {
+	padding: 10px;
+}
+
+#coursetitle {
+	font-family: Georgia, serif;
+}
