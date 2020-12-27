@@ -4,8 +4,93 @@ html {
 
 div .card-deck {
 	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #coursetitle {
 	font-family: Georgia, serif;
 }
+
+div .card {
+	border-radius: 27px;
+}
+
+
+
+#img1 {
+	border-radius: 20px;
+}
+
+
+.card-body1 {
+	margin: 0 auto;
+	border-radius: 35px;
+	background-color:#EC4E20;
+	z-index:-1;
+}
+ 
+
+.card-body {
+	margin: 0 auto;
+}
+ 
+.card-body {
+	margin: 35px 0;
+	
+}
+.card-body ul {
+	padding: 0;
+        margin: 0;
+	list-style: none;
+	position: relative;
+	
+	
+	}	
+.card-body ul li {
+	display:inline-block;
+	background-color:white;
+	z-index:100;
+	}
+.card-body a {
+	display:block;
+	padding:0 10px;	
+	color:black;
+	font-size:20px;
+	line-height: 60px;
+	z-index:100;
+	
+}
+.card-body a:hover { 
+	background-color: darkorange; 
+	z-index:100;
+}
+.card-body ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+	z-index:100;	
+}	
+.card-body ul li:hover > ul {
+	display: inline;
+	z-index:100;
+}	
+.card-body ul ul li {
+	width:230px;
+	float:none;
+	display:list-item;
+	position: relative;
+	z-index:100;
+}
+.card-body ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:230px;
+	z-index:100;
+}
+.card-body ul ul li {
+	border: 1px solid white;
+	z-index:100;
+}	
+
+ 

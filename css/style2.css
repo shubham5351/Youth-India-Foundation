@@ -1,4 +1,3 @@
-
 	body {
 		
 		background-size: 700px;
@@ -171,7 +170,7 @@
 	
 	.mydiv{
 		
-		height: 120px;
+		height: 100px;
 		width:100%;
 		background-color:#EC4E20;
 		position:relative;
@@ -222,7 +221,7 @@
 			font-weight: bold;
 			vertical-align: middle;
 			position: fixed;
-			z-index: 100;
+			z-index: 10000;
 			margin-left: -20px;
 			margin-top: -20px;
 	}
@@ -236,13 +235,27 @@
 			vertical-align: middle;
 
 	}
+nav1 {
 
+			
+			width: 101%;
+			height: 100px;
+			font-family: Libre Baskerville;
+			font-weight: bold;
+			vertical-align: middle;
+			
+			z-index: 100;
+			
+	}
 
+	
+	
+	
 	.im {
 		width:55px;
 		height:55px;
 		margin-left: 1px;
-		margin-top:10px;
+		
 
 		border-radius: 45% 45% 45% 45%;
 	
