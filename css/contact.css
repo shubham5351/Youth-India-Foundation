@@ -20,6 +20,18 @@ textarea{
 	justify-content: center;
 
 }
+.container1{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 2rem;
+	background-color: transparent;
+	overflow: hidden; 
+	left:260px;
+	align-items: center;
+	justify-content: center;
+
+}
 .form{
 	width: 100%;
 	max-width:820px;
